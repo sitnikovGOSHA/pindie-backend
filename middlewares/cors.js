@@ -1,8 +1,8 @@
 const allowedCors = [
   "http://localhost:3001",
   "http://localhost:3000",
-  "https://goshapindiefrontyp.nomoredomainswork.ru",
-  "https://goshapindieyp.nomoredomainswork.ru"
+  "https://goshapindiefrontyp.nomoredomainswork.ru/",
+  "https://goshapindieyp.nomoredomainswork.ru/"
 ];
 
 function cors(req, res, next) {
