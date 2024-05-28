@@ -67,7 +67,6 @@ const checkEmptyFields = async (req, res, next) => {
     next();
     return;
   }
-
   if (
     !req.body.title ||
     !req.body.description ||
@@ -87,7 +86,6 @@ const checkIfCategoriesAvaliable = async (req, res, next) => {
     next();
     return;
   }
-
   if (!req.body.categories || req.body.categories.length === 0) {
     res.setHeader("Content-Type", "application/json");
     res
