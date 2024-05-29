@@ -37,4 +37,5 @@ categoriesRouter.put(
   sendCategoryUpdated
 );
 categoriesRouter.delete("/categories/:id", checkAuth, deleteCategory, sendCategoryDeleted);
+
 module.exports = categoriesRouter;

@@ -44,4 +44,5 @@ gamesRouter.put(
   sendGameUpdated
 );
 gamesRouter.delete("/games/:id", checkAuth, deleteGame, sendGameDeleted);
+
 module.exports = gamesRouter;
